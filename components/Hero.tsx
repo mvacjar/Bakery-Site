@@ -25,7 +25,7 @@ const Hero = () => {
           alt="hero-banner"
           width={800}
           height={500}
-          className="bg-cover bg-center"
+          className="w-full bg-cover bg-center"
         />
       </div>
       <div
@@ -68,10 +68,24 @@ const Hero = () => {
         <button
           data-aos="zoom-in"
           data-aos-delay="800"
-          className="border-2 boder-black rounded-full px-14 py-4 font-bold"
+          className="border-2 border-black rounded-full px-14 py-4 font-bold"
         >
           Bread me!{" "}
         </button>
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-delay="600"
+        id="image-section"
+        className="lg:w-[50%] w-full"
+      >
+        <Image
+          src="/banner6.jpg"
+          alt="hero-banner"
+          width={800}
+          height={500}
+          className="w-full bg-cover bd-center"
+        />
       </div>
     </section>
   );

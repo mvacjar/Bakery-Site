@@ -27,13 +27,7 @@ const WhyUs = () => {
           data-aos="zoom-in"
           className="text-[50px] text-black text-center leading-[55px]"
         >
-          Where Every treat
-        </h1>
-        <h1
-          data-aos="zoom-in"
-          className="text-[50px] text-black text-center leading-[55px]"
-        >
-          is a Delight
+          Where Every treat is a Delight
         </h1>
         <p
           data-aos="zoom-in"
